@@ -123,15 +123,39 @@ p{
     color: #FFFFFF;
     margin-top: 50px;
     padding: 12px 46px;
+    border-style: none;
 }
 #info{
     margin-top: 102px;
 }
 #slide{
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 80px;  
 }
 .slide_container{
-    gap: 38px;
+    gap: 38px;   
 }
+.info_title p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.info_photo{
+}
+.secondary_btn{
+    background: #9F7464;
+border-radius: 15px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+position: absolute;
 
+color: #2F2F2F;
+
+}
