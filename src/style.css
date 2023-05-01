@@ -1,0 +1,120 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+#bgphoto{
+    background-image: url("../image 1.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;   
+}
+.justify-between{
+    justify-content: space between;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.align-center{
+    align-items: center;
+}
+.row{
+    display: flex;
+}
+.nav_links{
+    list-style: none;
+    display: flex;
+    gap: 34px;      
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; 
+    text-transform: capitalize;
+}
+.mini_icons{
+    margin-top: 20px;
+    Width: 20px;
+    Height: 20px;
+    display: flex;
+    gap: 32px;    
+}
+.banner{
+    background: rgba(206, 206, 206, 0.57);
+    backdrop-filter: blur(9.5px);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100vh;
+}
+h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+    color: #FFFFFF;
+    margin-right: 700px;
+    margin-top: 276px;
+}
+.btitle p{
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 38px;
+    margin-right: 680px;   
+}
+.navbar{
+    gap: 56px;
+    margin-top: 16px;    
+}
+.dir-column{
+    flex-direction: column;
+}
+#aboutus{
+    margin-top: 102px;
+}
+.col-5{
+    width: 45%;
+}
+col-6{
+    width: 50%;
+}
+.aboutus_container h2{
+   margin-top: 88px ;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.aboutus_container p{
+    margin-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #373737;
+}
+.primary_btn{
+    background: #9F7464;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding: 12px 46px;
+}
