@@ -3,7 +3,7 @@
     padding: 0;
 }
 #bgphoto{
-    background-image: url("../image 1.png");
+    background-image: url("../src/img/image 1.png");
     height: 100vh;
     background-repeat: no-repeat;
     width: 100%;
@@ -14,6 +14,10 @@
     justify-content: space between;
 }
 .container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.primary_container{
     width: 1280px;
     margin: 0 auto;
 }
@@ -40,7 +44,6 @@
     margin-top: 20px;
     Width: 20px;
     Height: 20px;
-    display: flex;
     gap: 32px;    
 }
 .banner{
@@ -58,7 +61,7 @@ h1{
     font-size: 80px;
     line-height: 98px;
     color: #FFFFFF;
-    margin-right: 700px;
+    margin-left: 0px;
     margin-top: 276px;
 }
 .btitle p{
@@ -69,17 +72,19 @@ h1{
     line-height: 24px;
     color: #FFFFFF;
     margin-top: 38px;
-    margin-right: 680px;   
+    margin-left: 0px;   
 }
 .navbar{
     gap: 56px;
-    margin-top: 16px;    
+    margin-top: 16px; 
+    margin-left: 0px;   
 }
 .dir-column{
     flex-direction: column;
 }
 #aboutus{
     margin-top: 102px;
+    margin-left: 50px;
 }
 .col-5{
     width: 45%;
@@ -87,8 +92,8 @@ h1{
 col-6{
     width: 50%;
 }
-.aboutus_container h2{
-   margin-top: 88px ;
+h2{
+   
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -97,8 +102,9 @@ col-6{
     color: #000000;
     text-transform: capitalize;
 }
-.aboutus_container p{
+p{
     margin-top: 50px;
+    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -118,3 +124,14 @@ col-6{
     margin-top: 50px;
     padding: 12px 46px;
 }
+#info{
+    margin-top: 102px;
+}
+#slide{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.slide_container{
+    gap: 38px;
+}
+
