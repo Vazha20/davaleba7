@@ -93,7 +93,6 @@ col-6{
     width: 50%;
 }
 h2{
-   
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -104,7 +103,6 @@ h2{
 }
 p{
     margin-top: 50px;
-    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -133,9 +131,9 @@ p{
     margin-left: 80px;  
 }
 .slide_container{
-    gap: 38px;   
+    gap: 30px;   
 }
-.info_title p{
+.guide_title p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -143,19 +141,129 @@ p{
     line-height: 30px;
     text-align: center;
     color: #000000;
+    margin-top: 102px;
 }
-.info_photo{
+.info_photo1{
+    position: relative;
+    left: 200px;
+    top: 60px
+}
+.info_photo2{
+    position: relative;  
 }
 .secondary_btn{
     background: #9F7464;
-border-radius: 15px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-position: absolute;
-
-color: #2F2F2F;
-
+    border-radius: 15px;
+    width: 71px;
+    height: 31px;
+    border-style: none;
+    position: relative;
+    top: 8px 
+}
+.mini_btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2F2F2F;
+    background: #FFFFFF;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    border-style: none;
+    position: relative;
+    right: 70px;  
+}
+#guide{
+    margin-top: 74px;
+}
+.guide_container{
+    gap: 150px
+}
+.advices{
+    margin-left: 40px;
+}
+#advertisement{
+    margin-top: 120px;
+}
+.adv_container{
+    margin-left: 40px;
+}
+.photo_slide :nth-child(2){
+    margin-top: 80px;   
+}
+.photo_slide :nth-child(1){
+    margin-top: 102px
+}
+.photo_slide :nth-child(3){
+    margin-top: 102px;
+}
+#blog{
+    margin-top: 120px;
+}
+#down{
+    background: #9F7464;
+    margin-top: 150px;
+}
+.footer_cont{
+    gap: 128px
+}
+.footer_cont h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.footer_cont p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footer_cont li{
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.last_info{
+    text-align: center;
+}
+.last_info p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+.last_line{
+    background: #D0D0D0;
+    border-radius: 20px;
+    width: 1200px;
+    height: 1px;
+    margin-top: 50px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    position: relative;
+    left: 80px;
+}
+.logotitle{
+    position: relative;
+    right: 140px;
 }
