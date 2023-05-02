@@ -1,52 +1,52 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
 }
-#bgphoto{
-    background-image: url("../src/img/image 1.png");
+#bgphoto {
+    background-image: url("../src/img/bgimage.png");
     height: 100vh;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    background-position: center;   
+    background-position: center;
 }
-.justify-between{
+.justify-between {
     justify-content: space between;
 }
-.container{
+.container {
     width: 1140px;
     margin: 0 auto;
 }
-.primary_container{
+.primary_container {
     width: 1280px;
     margin: 0 auto;
 }
-.align-center{
+.align-center {
     align-items: center;
 }
-.row{
+.row {
     display: flex;
 }
-.nav_links{
+.nav_links {
     list-style: none;
     display: flex;
-    gap: 34px;      
+    gap: 34px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     text-transform: capitalize;
 }
-.mini_icons{
+.mini_icons {
     margin-top: 20px;
     Width: 20px;
     Height: 20px;
-    gap: 32px;    
+    gap: 32px;
 }
-.banner{
+.banner {
     background: rgba(206, 206, 206, 0.57);
     backdrop-filter: blur(9.5px);
     position: absolute;
@@ -54,7 +54,7 @@
     right: 0px;
     height: 100vh;
 }
-h1{
+h1 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -64,7 +64,7 @@ h1{
     margin-left: 0px;
     margin-top: 276px;
 }
-.btitle p{
+.btitle p {
     font-family: 'Merriweather Sans';
     font-style: normal;
     font-weight: 300;
@@ -72,27 +72,27 @@ h1{
     line-height: 24px;
     color: #FFFFFF;
     margin-top: 38px;
-    margin-left: 0px;   
+    margin-left: 0px;
 }
-.navbar{
+.navbar {
     gap: 56px;
-    margin-top: 16px; 
-    margin-left: 0px;   
+    margin-top: 16px;
+    margin-left: 0px;
 }
-.dir-column{
+.dir-column {
     flex-direction: column;
 }
-#aboutus{
+#aboutus {
     margin-top: 102px;
     margin-left: 50px;
 }
-.col-5{
+.col-5 {
     width: 45%;
 }
-col-6{
+col-6 {
     width: 50%;
 }
-h2{
+h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -101,7 +101,7 @@ h2{
     color: #000000;
     text-transform: capitalize;
 }
-p{
+p {
     margin-top: 50px;
     font-family: 'Poppins';
     font-style: normal;
@@ -110,7 +110,7 @@ p{
     line-height: 26px;
     color: #373737;
 }
-.primary_btn{
+.primary_btn {
     background: #9F7464;
     border-radius: 10px;
     font-family: 'Poppins';
@@ -123,17 +123,17 @@ p{
     padding: 12px 46px;
     border-style: none;
 }
-#info{
+#info {
     margin-top: 102px;
 }
-#slide{
+#slide {
     margin-top: 100px;
-    margin-left: 80px;  
+    margin-left: 80px;
 }
-.slide_container{
-    gap: 30px;   
+.slide_container {
+    gap: 30px;
 }
-.guide_title p{
+.guide_title p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -143,24 +143,24 @@ p{
     color: #000000;
     margin-top: 102px;
 }
-.info_photo1{
+.info_photo1 {
     position: relative;
     left: 200px;
     top: 60px
 }
-.info_photo2{
-    position: relative;  
+.info_photo2 {
+    position: relative;
 }
-.secondary_btn{
+.secondary_btn {
     background: #9F7464;
     border-radius: 15px;
     width: 71px;
     height: 31px;
     border-style: none;
     position: relative;
-    top: 8px 
+    top: 8px
 }
-.mini_btn{
+.mini_btn {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -173,43 +173,43 @@ p{
     height: 25px;
     border-style: none;
     position: relative;
-    right: 70px;  
+    right: 70px;
 }
-#guide{
+#guide {
     margin-top: 74px;
 }
-.guide_container{
+.guide_container {
     gap: 150px
 }
-.advices{
+.advices {
     margin-left: 40px;
 }
-#advertisement{
+#advertisement {
     margin-top: 120px;
 }
-.adv_container{
+.adv_container {
     margin-left: 40px;
 }
-.photo_slide :nth-child(2){
-    margin-top: 80px;   
+.photo_slide :nth-child(2) {
+    margin-top: 80px;
 }
-.photo_slide :nth-child(1){
+.photo_slide :nth-child(1) {
     margin-top: 102px
 }
-.photo_slide :nth-child(3){
+.photo_slide :nth-child(3) {
     margin-top: 102px;
 }
-#blog{
+#blog {
     margin-top: 120px;
 }
-#down{
+#down {
     background: #9F7464;
     margin-top: 150px;
 }
-.footer_cont{
+.footer_cont {
     gap: 128px
 }
-.footer_cont h3{
+.footer_cont h3 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -219,7 +219,7 @@ p{
     color: #FFFFFF;
     margin-top: 40px;
 }
-.footer_cont p{
+.footer_cont p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -227,7 +227,7 @@ p{
     line-height: 22px;
     color: #FFFFFF;
 }
-.footer_cont li{
+.footer_cont li {
     list-style: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -236,10 +236,10 @@ p{
     line-height: 22px;
     color: #FFFFFF;
 }
-.last_info{
+.last_info {
     text-align: center;
 }
-.last_info p{
+.last_info p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -249,21 +249,21 @@ p{
     color: #FFFFFF;
     margin-top: 0px;
 }
-.last_line{
+.last_line {
     background: #D0D0D0;
     border-radius: 20px;
     width: 1200px;
     height: 1px;
     margin-top: 50px;
 }
-.logo{
+.logo {
     width: 30px;
     height: 30px;
     margin-top: 30px;
     position: relative;
     left: 80px;
 }
-.logotitle{
+.logotitle {
     position: relative;
     right: 140px;
 }
